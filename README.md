@@ -1,46 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![Netlify Status](https://api.netlify.com/api/v1/badges/00005e73-de07-4c2d-9f5e-2886bbacb943/deploy-status)](https://app.netlify.com/sites/clone-ui-twitter/deploys)
 
-In the project directory, you can run:
+# Clone UI Twitter
+Aplicação desenvolvida em ReactJS contendo Bootstrap. 
 
-### `yarn start`
+Baseado no tutorial do WebSite [Rockseat](https://www.youtube.com/watch?v=K-8z_4xvT3o&ab_channel=Rocketseat).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Hospeadado em: [Netlify](https://clone-ui-twitter.netlify.app/)**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+&nbsp;
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+# Requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## **Ambientes de Desenvolvimento e Referências**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* IDE:    **VSCODE 1.55.1**
+* [Node.js](https://nodejs.org/en/):    **version 14.16.0 (x64) and NPM**
 
-### `yarn eject`
+## Instalações
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Yarn** - Através do NPM iremos instalar o gerenciador de dependências do Facebook Yarn, que é mais recomendado para se trabalhar usando o React:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+npm install -g yarn
+````
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+**Create-react-app** - Precisamos instalar a ferramenta de Linha de comando create-react-app que também foi desenvolvida pelo Facebook para criarmos um projeto do zero sem nos preocuparmos com bundling, otimização de arquivo e outros detalhes de configuração que podem ser extensos quando realizados manualmente:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm install -g create-react-app
+````
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+&nbsp;
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+# Primeiros passos para criar sua aplicação React
+
+1 - Dentro da pasta do seu projeto, execute o seguinte comando: 
+```sh
+npm create-react-app [nome-do-projeto] --template=typescript
+```
+
+2 - Esse comando criará vários arquivos dentro da pasta *aplicacao*, dentre eles, pacotes. Para continuarmos a instalação desses pacotes, digite o seguinte comando para acessarmos a pasta do nosso projeto:
+```
+cd [nome-do-projeto]
+````
+
+3 - Logo após, ainda no mesmo diretório, para instalação dos pacotes do Bootstrap, execute os seguintes comandos:
+```
+yarn add styled-components styled-icons
+yarn add react-sticky-box
+yarn add –D @types/styled-components
+````
+
+4 - Para começar a programar, vamos utilizar a IDE Visual Studio Code. Para abrir o projeto nele, digite os seguintes comandos no diretório do projeto:
+```
+code .
+````
+
+5 - Pronto! Agora basta você desenvolver do seu jeito a sua aplicação e executa-lá para teste com o comando a seguir:
+```
+yarn start
+````
