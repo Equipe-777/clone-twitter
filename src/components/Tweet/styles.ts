@@ -79,6 +79,9 @@ export const Header = styled.div`
         text-overflow: ellipsis;
         overflow: hidden;
     }
+    span {
+        margin-left: 4px;
+    }
 ` ;
 export const Dot = styled.div `
     background: var(--gray);

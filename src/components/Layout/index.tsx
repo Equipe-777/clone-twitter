@@ -2,6 +2,7 @@ import React from 'react'
 import Main from '../Main';
 import { Container, Wrapper } from './styles';
 import MenuBar from '../MenuBar';
+import SideBar from '../SideBar'
 
 export default function index() {
     return (
@@ -10,7 +11,7 @@ export default function index() {
                 <Wrapper>
                     <MenuBar />
                     <Main />
-                    {/* <Sidebar /> */}
+                    <SideBar />
                 </Wrapper>
             </Container>
         </div>

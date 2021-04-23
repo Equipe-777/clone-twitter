@@ -2,8 +2,11 @@ import React from 'react';
 
 import { Container, Retweeted, RocketseatIcon, Body, Avatar, Content, Header, Dot, Description, ImageContent, Icons, Status, CommentIcon, RetweetIcon, LikeIcon, } from './styles';
 
+// import Imagem from '../../assets/trello.jpg';
+
 const Tweet: React.FC = () => {
   return (
+      <>
       <Container>
           <Retweeted>
               <RocketseatIcon />
@@ -18,12 +21,14 @@ const Tweet: React.FC = () => {
                     <strong>Grupo 777</strong>
                     <span>@grupo777</span>
                     <Dot />
-                    <time>23 de abr</time>
+                    <time>23 de abril</time>
                   </Header>
 
-                  <Description>João Otário</Description>
+                  <Description> skr skr skr </Description>
 
-                  <ImageContent />
+                  <ImageContent>
+                  {/* <img src={Imagem} alt="alt"/> */}
+                  </ImageContent>
 
                   <Icons>
                       <Status>
@@ -42,6 +47,7 @@ const Tweet: React.FC = () => {
               </Content>
           </Body>
       </Container>
+      </>
   );
 }
 

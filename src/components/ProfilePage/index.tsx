@@ -18,7 +18,10 @@ const ProfilePage: React.FC = () => {
             <h2>@grupo_777</h2>
 
             <p>
-              Developer at <a href="https://www.google.com.br">@Rocketseat</a>
+              Developer at <a href="https://twitter.com/katkitlol">@katkitlol </a> |
+              <a href="https://twitter.com/Luccas2sz">@Luccas2sz </a> |
+              <a href="https://twitter.com/LDS_GHOST">@LDS_GHOST</a> | 
+              <a href="https://twitter.com/Oseias__">@Oseias__</a>
             </p>
 
             <ul>
@@ -37,10 +40,10 @@ const ProfilePage: React.FC = () => {
 
             <Followage>
               <span>
-                seguindo <strong>100</strong>
+                seguindo <strong>4</strong>
                 </span>
               <span>
-              <strong>100000</strong> seguidores
+              <strong>777</strong> seguidores
                 </span>
             </Followage>
           </ProfileData>
