@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00005e73-de07-4c2d-9f5e-2886bbacb943/deploy-status)](https://app.netlify.com/sites/clone-ui-twitter/deploys)
 
-# Clone UI Twitterr
+# Clone UI Twitter
 Aplicação desenvolvida em ReactJS contendo Bootstrap. 
 
 Baseado no tutorial do WebSite [Rockseat](https://www.youtube.com/watch?v=K-8z_4xvT3o&ab_channel=Rocketseat).
