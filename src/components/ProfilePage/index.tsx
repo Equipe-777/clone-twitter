@@ -18,7 +18,7 @@ const ProfilePage: React.FC = () => {
             <h2>@grupo_777</h2>
 
             <p>
-              Developer at <a href="https://twitter.com/katkitlol">@katkitlol </a> |
+              Developer by <a href="https://twitter.com/katkitlol">@katkitlol </a> |
               <a href="https://twitter.com/Luccas2sz">@Luccas2sz </a> |
               <a href="https://twitter.com/LDS_GHOST">@LDS_GHOST</a> | 
               <a href="https://twitter.com/Oseias__">@Oseias__</a>
