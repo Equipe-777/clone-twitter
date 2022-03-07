@@ -1,4 +1,4 @@
-
+-------
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/00005e73-de07-4c2d-9f5e-2886bbacb943/deploy-status)](https://app.netlify.com/sites/clone-ui-twitter/deploys)
 
